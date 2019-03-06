@@ -7,7 +7,10 @@
 /* @import "components/texts.css"; */
 
 /* parts */
-/* @import "parts/page--head.css"; */
+ @import "parts/page--head.css";
+ @import "parts/page--main.css";
+ @import "parts/page--foot.css";
+
 /* @import "parts/page--anchors.css"; */
 /* @import "parts/page--content.css"; */
 /* @import "parts/page--foot.css"; */

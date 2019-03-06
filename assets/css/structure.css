@@ -1,21 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,700|Schoolbell');
 
-@import url('https://fonts.googleapis.com/css?family=Caveat+Brush&subset=latin-ext');
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Schoolbell', cursive;
 
-@font-face {
-    font-family: 'aileronblack';
-    src: url('../fonts/aileron-black-webfont.woff2') format('woff2'),
-         url('../fonts/aileron-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+font-weight:300;
 
-@font-face {
-    font-family: 'aileronlight';
-    src: url('../fonts/aileron-light-webfont.woff2') format('woff2'),
-         url('../fonts/aileron-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
+*/
+
+/* --------------- colors
+#98c601       vert
+#fa9401       orange (pamplemousse)
+#f27000       orange foncé
+#d5014e       framboise
+
+*/
 
 *{
   padding: 0;
@@ -24,14 +24,17 @@
   box-sizing: border-box;
   list-style: none;
 }
+
 html {
   font-size: 15px;
+  font-weight:300;
 }
 
 body {
-  font-family: 'aileronlight';
+  font-family: 'Open Sans', sans-serif;
   font-size: 100%;
   background-color: pink;
+  font-weight:300;
 }
 
 /* --------------- Resets */

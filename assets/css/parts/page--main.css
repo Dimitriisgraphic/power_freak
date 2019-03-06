@@ -1,0 +1,27 @@
+.wrapper {
+  width:1600px;
+  margin: auto;
+}
+
+.content {
+  width:auto;
+}
+/* -------------------------- content intro */
+.content_intro {
+  background-color: #98c601;
+}
+aside{
+  border:solid 1px red;
+}
+
+.content_section1, .content_section3, .content_section5 {
+  background-color: white;
+}
+
+.content_section2{
+  background-color: #fa9401;
+}
+
+.content_section4{
+  background-color: #d5014e;
+}
