@@ -1,0 +1,52 @@
+
+/*-- ------------------------------les citations */
+
+.block_citation{
+  margin-bottom: 2vh;
+
+}
+
+.citation {
+  display:block;
+  font-family: 'Schoolbell', cursive;
+  font-size: 2em;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+
+.citation_big {
+  font-size: 4em;
+}
+
+.author {
+  color:white;
+  display:block;
+  font-family: 'Schoolbell', cursive;
+}
+
+/*-- ------------------------------ paragraphes */
+
+.titre_intro {
+  margin-bottom: 2.1vh;
+  font-family: 'Schoolbell', cursive;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.light{
+  margin-bottom: 2vh;
+}
+
+.bold{
+  font-weight:700;
+}
+
+/*-- ------------------------------ section_white */
+.section_title {
+  font-family: 'Schoolbell', cursive;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 8vh;
+}

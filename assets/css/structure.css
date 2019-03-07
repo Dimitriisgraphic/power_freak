@@ -5,7 +5,7 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Schoolbell', cursive;
 
 font-weight:300;
-
+font-weight:700;
 
 */
 
@@ -43,4 +43,10 @@ ul {
 }
 a {
     text-decoration: none;
+}
+
+/* --------------- wrapper*/
+.wrapper {
+  width:84vw;
+  margin: auto;
 }

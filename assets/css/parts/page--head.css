@@ -1,4 +1,70 @@
 .page--head {
-  height:12vh;
-  background-color: yellow;
+    background-color: yellow;
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+}
+
+.container_page-head{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3vw;
+}
+
+/*---------------------- nav langues */
+.langues{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.langues a img{
+  margin-left: 3px;
+}
+
+/*---------------------- logo au milieu */
+
+.logo {
+  height:6vh;
+  margin-top: 6vh;
+  position: relative
+}
+
+.logo::before{
+  content: "";
+  height: 6vh;
+  width: 6vh;
+  background-image: url('../../images/made_in_swiss.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  top: -19px;
+  right: -20px;
+  z-index: 1;
+}
+
+.logo img {
+  z-index: 2;
+  position: relative;
+}
+
+/*---------------------- navigation */
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caddy {
+  height:3vh;
+  fill:black;
+  margin-right: 2vw;
+}
+
+.burger {
+    height:4vh;
+    fill:black;
 }

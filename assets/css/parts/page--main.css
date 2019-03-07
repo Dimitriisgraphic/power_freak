@@ -1,27 +1,60 @@
-.wrapper {
-  width:1600px;
-  margin: auto;
-}
-
 .content {
   width:auto;
+  height:auto;
+  padding:0 2vw;
 }
+
+.container_flex {
+  display: flex;
+  padding: 8vh 0 20vh;
+  fle
+}
+
+.container_flex .column {
+  width:50%;
+}
+
+.column_left{
+  padding-left: 10vw;
+  padding-right: 2vw;
+}
+
+.column_right{
+  padding-left: 2vw;
+  padding-right: 10vw;
+}
+
 /* -------------------------- content intro */
 .content_intro {
   background-color: #98c601;
 }
-aside{
-  border:solid 1px red;
+.content_intro .container {
+  padding: 30vh 0 20vh;
+}
+.content_intro .colonne_right {
+  padding-top: 20vh;
+}
+.block_signature{
+  position:relative;
+}
+.block_signature::before{
+  content: "";
+  height: 14vh;
+  width: 16vh;
+  background-image: url('../../images/la_bulle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  top: -92px;
+  left: -110px;
+  z-index: 1;
 }
 
-.content_section1, .content_section3, .content_section5 {
-  background-color: white;
-}
-
+/* -------------------------- content le reste à faire */
 .content_section2{
   background-color: #fa9401;
 }
-
 .content_section4{
   background-color: #d5014e;
 }
