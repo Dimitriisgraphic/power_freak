@@ -1,3 +1,22 @@
 .page--foot {
   background-color: #98c601;
+  color:white;
+
+  flex-direction: column;
+}
+
+.page--foot h2{
+    font-family: 'Schoolbell', cursive;
+    display: inline-block;
+}
+
+.content-footer{
+  width: 80%;
+display: flex;
+}
+
+.icon {
+  height: 50%;
+  width:auto;
+  display: block;
 }

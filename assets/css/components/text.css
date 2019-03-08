@@ -1,28 +1,59 @@
 
 /*-- ------------------------------les citations */
-
 .block_citation{
   margin-bottom: 2vh;
+  position:relative;
+}
 
+.block_citation::before{
+  content: "";
+  height: 14vh;
+  width: 16vh;
+  background-image: url('../../images/la_bulle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  top: -92px;
+  left: -110px;
+  z-index: 1;
+}
+
+@media (max-width: 600px){
+  .block_citation::before{
+    display:none;
+  }
 }
 
 .citation {
-  display:block;
   font-family: 'Schoolbell', cursive;
   font-size: 2em;
-  color: white;
   text-transform: uppercase;
   line-height: 1.2em;
 }
+.citation span {
+    display:block;
+}
 
-.citation_big {
-  font-size: 4em;
+.citation span.big {
+  font-size: 3em;
+}
+
+.content_section1 .citation span.big {
+  font-size: 2em;
+  line-height: .9em;
 }
 
 .author {
-  color:white;
-  display:block;
   font-family: 'Schoolbell', cursive;
+}
+
+.author span {
+    display:block;
+}
+
+.author span.small {
+  font-size: .8em;
 }
 
 /*-- ------------------------------ paragraphes */
@@ -49,4 +80,19 @@
   font-size: 1.5em;
   text-align: center;
   padding-top: 8vh;
+  padding-bottom: 4vh;
+}
+
+/*-- ------------------------------ read more */
+.block_readmore .titre_intro{
+   text-align: center;
+}
+
+.block_readmore summary::-webkit-details-marker {
+  display: none
+}
+
+/*-- ------------------------------ background */
+.background * {
+  color: white;
 }

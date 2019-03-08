@@ -5,6 +5,7 @@
 
 /* components */
  @import "components/text.css";
+ @import "components/block_readmore.css";
 
 /* parts */
  @import "parts/page--head.css";

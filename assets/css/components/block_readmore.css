@@ -1,0 +1,42 @@
+.block_readmore {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titre_readmore{
+  margin-bottom: 2.8vh;
+  font-family: 'Schoolbell', cursive;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+
+details {
+  width: 40vw;
+  margin-bottom: 3vh;
+}
+
+@media (max-width: 600px){
+  details {
+    width:90vw;
+  }
+}
+
+details:hover{
+  cursor: pointer;
+}
+
+summary {
+  background-color: #98c601;
+  padding: 1vh 3vw;
+  border-radius: 7px 7px;
+  margin-bottom: 3vh;
+  font-family: 'Schoolbell', cursive;
+  color:white;
+  text-align: center;
+  }
+
+.blabla_readmore {
+  padding: 0 2vw;
+}

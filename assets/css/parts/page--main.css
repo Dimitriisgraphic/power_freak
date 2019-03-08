@@ -1,3 +1,4 @@
+
 .content {
   width:auto;
   height:auto;
@@ -7,54 +8,97 @@
 .container_flex {
   display: flex;
   padding: 8vh 0 20vh;
-  fle
+  align-items: center;
 }
 
 .container_flex .column {
   width:50%;
 }
 
+@media (max-width: 600px){
+  .container_flex {
+    padding: 2vh 0 4vh;
+    flex-direction: column;
+    }
+  .container_flex .column {
+    width:100%;
+    }
+  }
+
+
 .column_left{
-  padding-left: 10vw;
+  padding-left: 15vw;
   padding-right: 2vw;
 }
 
 .column_right{
   padding-left: 2vw;
-  padding-right: 10vw;
+  padding-right: 15vw;
+}
+
+@media (max-width: 600px){
+  .column_left {
+    padding-left: 3vw;
+    margin-bottom: 6vh;
+  }
+  .column_right{
+    padding-right: 3vw;
+  }
+}
+
+@media (max-width: 1200px){
+  .column_left {
+    padding-left: 3vw;
+    margin-bottom: 6vh;
+  }
+  .column_right{
+    padding-right: 3vw;
+  }
+}
+
+.block_visual img {
+  height: 30vh;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 600px){
+  .block_visual img {
+    height: 20vh;
+  }
+}
+
+@media (max-width: 1200px){
+  .block_visual img {
+    height: 25vh;
+  }
 }
 
 /* -------------------------- content intro */
-.content_intro {
+.content_section1 {
   background-color: #98c601;
+  padding: 0 12vw;
 }
-.content_intro .container {
+.content_section1 .container {
   padding: 30vh 0 20vh;
 }
-.content_intro .colonne_right {
+.content_section1 .colonne_right {
   padding-top: 20vh;
 }
-.block_signature{
-  position:relative;
-}
-.block_signature::before{
-  content: "";
-  height: 14vh;
-  width: 16vh;
-  background-image: url('../../images/la_bulle.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
-  position: absolute;
-  top: -92px;
-  left: -110px;
-  z-index: 1;
-}
+
+
+
+
+
+
+
+
 
 /* -------------------------- content le reste à faire */
-.content_section2{
+.content_section3{
   background-color: #fa9401;
 }
-.content_section4{
+.content_section5{
   background-color: #d5014e;
 }
