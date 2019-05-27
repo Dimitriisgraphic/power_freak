@@ -5,6 +5,11 @@
   position:relative;
 }
 
+@media (max-width: 600px){
+  .block_citation{
+  }
+}
+
 .block_citation::before{
   content: "";
   height: 14vh;
@@ -73,15 +78,20 @@
   font-weight:700;
 }
 
-/*-- ------------------------------ section_white */
+/*-- ------------------------------ titre section */
 .section_title {
-  font-family: 'Schoolbell', cursive;
-  text-transform: uppercase;
-  font-size: 1.5em;
+  font-family: 'Schoolbell';
+  font-size: 2.5em;
   text-align: center;
   padding-top: 8vh;
   padding-bottom: 4vh;
 }
+.section_title_main {
+  padding: 0;
+  text-transform: none;
+  font-size: 2.5em;
+}
+
 
 /*-- ------------------------------ read more */
 .block_readmore .titre_intro{
@@ -94,5 +104,10 @@
 
 /*-- ------------------------------ background */
 .background * {
+  color: white;
+}
+
+/*-- ------------------------------ font color */
+.white {
   color: white;
 }

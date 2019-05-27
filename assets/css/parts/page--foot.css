@@ -1,22 +1,56 @@
 .page--foot {
-  background-color: #98c601;
+  background-color: black;
   color:white;
-
+  display: flex;
   flex-direction: column;
 }
 
-.page--foot h2{
-    font-family: 'Schoolbell', cursive;
-    display: inline-block;
-}
 
 .content-footer{
   width: 80%;
-display: flex;
+  height: auto;
+  display: flex;
+  margin:auto;
+  align-items: center;
+  justify-content:space-around;
+  padding:3vh;
+}
+
+.title_footer{
+  font-family: 'Schoolbell', cursive;
+  display: inline-block;
+  font-size: 1.5em;
+  padding-bottom: 1.5vh;
+}
+
+.block_socialnetwork, .block_calage{
+  width:10vw;
+}
+
+.block_socialnetwork_logo{
+  display: flex;
 }
 
 .icon {
   height: 50%;
   width:auto;
   display: block;
+  margin: 0 1vh;
+}
+
+.textsocial {
+  display: block;
+}
+
+@media (max-width: 600px){
+  .content-footer{
+    flex-direction: column;
+    height: auto;
+  }
+  .title_footer{
+    font-size: 1.1em;
+  }
+  .block_socialnetwork, .block_calage{
+    width:auto;
+  }
 }

@@ -1,45 +1,23 @@
 <header class="page--head">
   <div class="container_page-head">
-    <div class="langues">
-        <span>FR</span>
-          <a href="#"><img src="assets/images/sigle_langues.png" height="8%" width="auto"/></a>
-    </div>
+    <div></div>
     <a class="logo">
       <img src="images/power_freak_logo.png" height="100%" width="auto" alt="logo power freak"/>
     </a>
     <div class="navigation">
-        <a href="#">
-          <svg class="caddy" x="0px" y="0px" viewBox="0 0 40 40">
-              <g>
-                <path class="st0" d="M22.8,31.1c-1.5,0-2.8,1.3-2.8,2.8c0,1.4,1.2,2.7,2.8,2.7c1.5,0,2.8-1.4,2.8-2.7
-                  C25.5,32.4,24.3,31.1,22.8,31.1z"/>
-                <path class="st0" d="M7.9,31.1c-1.5,0-2.7,1.3-2.7,2.8c0,1.4,1.2,2.7,2.7,2.7c1.5,0,2.8-1.4,2.8-2.7C10.7,32.4,9.4,31.1,7.9,31.1z"
-                  />
-                <path class="st0" d="M37.4,4.2c-0.1-0.7-0.8-1-1.5-0.8l-6.5,2.5C29,6,28.7,6.3,28.5,6.7l-4.7,15.3c-3.3,0-14.2,0-15.6,0
-                  c-0.4-1.3-2.1-7.4-2.9-10.2c2.9,0,14.4,0,14.4,0c0.7,0,1.2-0.5,1.2-1.2c0-0.7-0.5-1.1-1.2-1.1H3.9c-0.3,0-0.6,0.1-0.8,0.3
-                  c-0.5,0.3-0.7,0.8-0.6,1.3l3.6,12.4c0.1,0.6,0.7,1,1.2,1H23c-0.3,1.1-0.7,2.6-1,3.4c-1.6,0-14.9,0-14.9,0c-0.7,0-1.2,0.5-1.2,1.2
-                  c0,0.7,0.5,1.1,1.2,1.1H23c0.5,0,1-0.3,1.2-0.8l1.7-5.9c0.3-0.7,4.5-14.4,4.8-15.4c1-0.4,5.9-2.3,5.9-2.3c0.5-0.1,0.8-0.5,0.8-1.1
-                  C37.5,4.5,37.5,4.3,37.4,4.2z"/>
-              </g>
-            </svg>
-        </a>
-        <!-- debut de menu burger -->
-        <div class="menuburger">
-          <a href="#">
-            <svg class="burger" x="0px" y="0px" viewBox="0 0 40 40">
-              <g>
-                <path class="st0" d="M39.2,13H0.8C0.4,13,0,12.7,0,12.2l0-1.4C0,10.4,0.4,10,0.8,10h38.4c0.4,0,0.8,0.4,0.8,0.8v1.4
-                  C40,12.7,39.6,13,39.2,13z"/>
-                <path class="st0" d="M39.2,21.5H0.8c-0.4,0-0.8-0.4-0.8-0.8l0-1.4c0-0.4,0.4-0.8,0.8-0.8h38.4c0.4,0,0.8,0.4,0.8,0.8v1.4
-                  C40,21.1,39.6,21.5,39.2,21.5z"/>
-                <path class="st0" d="M39.2,30H0.8C0.4,30,0,29.6,0,29.2l0-1.4C0,27.3,0.4,27,0.8,27h38.4c0.4,0,0.8,0.4,0.8,0.8v1.4
-                  C40,29.6,39.6,30,39.2,30z"/>
-              </g>
-            </svg>
-          </a>
-        </div>
-      <!-- fin de menu burger -->
+            <div id="menuToggle">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <a href="index.php"><li>Home</li></a>
+                <a href="politique.php"><li>Notre politique</li></a>
+                <a href="#"><li>Contact</li></a>
+              </ul>
+            </div>
       </div>
       <!-- fin de navigation -->
     </div>
+    <!-- fin de container_page-head -->
 </header>
