@@ -23,14 +23,12 @@
   .container_flex .column {
     width:100%;
     }
-  }
-
-  .column_right-visual, .column_left-visual{
+    .column_right-visual, .column_left-visual{
     order:1;
-  }
-
+    }
   .column_left-text, .column_right-text{
     order:2;
+    }
   }
 
 .column_left{
@@ -69,21 +67,42 @@
 }
 
 .block_visual img {
-  width:  80%;
+  width:  100%;
+  display: block;
+  margin: auto;
+}
+
+.block_visual {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 2vh;
+    position: relative;
+ }
+
+
+.big_icon{
+  height: 50vh;
   display: block;
   margin: auto;
 }
 
 @media (max-width: 1200px){
-  .block_visual {
-    width: 60%;
-    margin:auto;
+  .big_icon{
+    height: 30vh;
   }
 }
 
-@media (max-width: 1200px){
-  .canettes {
-  }
+.big_icon-green{
+  fill:#98c601;
+}
+
+.big_icon-pink{
+  fill:#d5014e;
+}
+
+.big_icon-white{
+  fill:white;
 }
 
 /* -------------------------- page politique*/
@@ -112,13 +131,25 @@
   background-color: #d5014e;
 }
 
+.content_section3{
+  background-image: url("../../../images/background_section3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content_section5{
+  background-image: url("../../../images/background_section5.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* -------------------------- la homepage */
 .canettes{
   width: 100%;
   height: auto;
 }
-
-
 
 .content_section1_home {
   background-color: white;
@@ -127,6 +158,21 @@
 
 .home .content_section1 {
   background-color: white;
+}
+
+.home .separator{
+  content: "";
+  background: black;
+  height: 1px;
+  width:100%;
+  display: none;
+}
+
+@media (max-width: 600px){
+  .home .separator {
+    display: block;
+    margin-top: 4vh;
+  }
 }
 
 .home .content_section1 .container{
@@ -147,6 +193,12 @@ padding: 0 0 2vh;
   left:0;
   z-index: -10;
 }
+
+@media (max-width: 1200px){
+  .home .content_section3{
+    padding-bottom: 2vh;
+    }
+  }
 
 @media (max-width: 600px){
   .home .container_flex:after {
@@ -184,6 +236,12 @@ padding: 0 0 2vh;
   padding: 15vh 10vw;
 }
 
+@media (max-width: 600px){
+  .home .content_section3{
+    padding-bottom: 0;
+    }
+  }
+
 .home .content_section2 .section_title{
   padding:0;
 }
@@ -210,7 +268,6 @@ padding: 0 0 2vh;
   }
 }
 
-
 .blockvisual_big{
   width:80%;
 }
@@ -220,11 +277,7 @@ padding: 0 0 2vh;
   height: auto;
 }
 
-
-
-
 /* -------------------------- les boutons */
-
 .container_bouton{
   display: flex;
   align-items: center;

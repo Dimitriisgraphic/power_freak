@@ -15,4 +15,5 @@
       <!-- fin de block_paragraphe -->
     </div>
   </section>
+  <div class="separator"></div>
   <!-- fin de intro -->

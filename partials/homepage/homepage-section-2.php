@@ -17,7 +17,7 @@
 
     <div class="column column_middle">
       <div class="block_texte">
-        <h2 class="titre_intro">Naturellement énergissante</h2>
+        <h2 class="titre_intro">Naturellement énergisante</h2>
         <p>35% de jus de fruits par canette, une caféine et des vitamines d’origine naturelles, powerfreak c’est le plein de d’energie pour vos vous, et le plein de plaisirs pour les papilles.</p>
       </div>
     </div>

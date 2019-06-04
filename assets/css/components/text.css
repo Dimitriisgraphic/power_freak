@@ -70,7 +70,7 @@
   font-size: 1.5em;
 }
 
-.light{
+.home .light{
   margin-bottom: 2vh;
 }
 
@@ -92,6 +92,55 @@
   font-size: 2.5em;
 }
 
+/*-- ------------------------------ block_number */
+.block_number{
+  position: absolute;
+  right: 0;
+  top:0;
+  z-index: 10;
+  padding-left: 4vw;
+}
+
+.introduce_number{
+  font-family: 'Schoolbell';
+  font-size: 2.5em;
+  color: white;
+  display: inline-block;
+  padding: 1vh;
+  background-color: #d5014e;
+  border-radius: 2vh;
+  text-align: center;
+}
+
+.block_number .flex{
+align-items: baseline;
+}
+
+.number{
+  font-family: 'Schoolbell';
+  font-size: 9em;
+  display: block;
+  color: #d5014e !important;
+}
+
+.number_small{
+  font-size: 2em;
+  font-family: 'Schoolbell';
+  display: block;
+  color: #d5014e !important;;
+}
+
+@media (max-width: 600px){
+  .introduce_number {
+    font-size: 1.7em;
+  }
+  .number{
+    font-size: 5em;
+  }
+  .number_small{
+    font-size: 1.7em;
+}
+}
 
 /*-- ------------------------------ read more */
 .block_readmore .titre_intro{

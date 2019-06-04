@@ -47,3 +47,10 @@ ul {
 a {
     text-decoration: none;
 }
+
+/* --------------- les classics */
+
+.flex{
+  display: flex;
+
+}
