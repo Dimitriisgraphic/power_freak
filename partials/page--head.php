@@ -13,7 +13,7 @@
               <ul id="menu">
                 <a href="index.php"><li>Home</li></a>
                 <a href="politique.php"><li>Notre politique</li></a>
-                <a href="#"><li>Contact</li></a>
+                <a href="contact.php"><li>Contact</li></a>
               </ul>
             </div>
       </div>

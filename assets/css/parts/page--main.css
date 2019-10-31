@@ -277,6 +277,15 @@ padding: 0 0 2vh;
   height: auto;
 }
 
+/* -------------------------- page contact */
+.page-main-contact {
+  height: 97vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* -------------------------- les boutons */
 .container_bouton{
   display: flex;
